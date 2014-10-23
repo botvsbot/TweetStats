@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <title>TiltTweet</title>
+  <link rel=stylesheet type=text/css href="<% css_url %>">
+</head>
+<body>
+  <div class=page>
+  <h1>TiltTweet</h1>
+     <div class=metanav>
+        <br>
+     <a href="<% home_url %>">Home</a><br>
+     <a href="<% get_status_url %>">Get Status</a><br>
+     <a href="<% get_statistics_url %>">Get User Statistics</a>
+  </div>
+  <% content %>
+</div>
+</body>
+</html>
