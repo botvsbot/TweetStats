@@ -1,0 +1,19 @@
+<h2>Get Statistics</h2>
+<% IF err %><p class=error><strong>Error:</strong> <% err %><% END %>
+<form action="<% get_statistics %>" method=post>
+  <dl>
+    <dt>Screen Name1:
+    <dd><input type=text name=screenname1>
+    <dt>Screen Name2:
+    <dd><input type=text name=screenname2>
+    <dd><input type=submit value=Get Status>
+  </dl>
+</form>
+<ul class=ids>
+<% IF ids %>
+  <% FOREACH id IN ids%>
+    <% ct = loop.count - 1 %>
+    <li><h4><% id %>&nbsp(@<% handles.$ct %>)</h4>
+  <% END %>
+<% END %>
+</ul>
