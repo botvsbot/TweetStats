@@ -1,0 +1,16 @@
+<h2>Get Status</h2>
+<% IF err %><p class=error><strong>Error:</strong> <% err %><% END %>
+<form action="<% get_status_url %>" method=post>
+  <dl>
+    <dt>Screen Name:
+    <dd><input type=text name=screenname>
+    <dd><input type=submit value=Get Status>
+  </dl>
+</form>
+<ul class=status>
+<% IF status %>
+  <% FOREACH stat IN status %>
+    <li><h4><% stat %></h4>
+  <% END %>
+<% END %>
+</ul>
