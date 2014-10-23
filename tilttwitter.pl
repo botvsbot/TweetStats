@@ -1,8 +1,6 @@
 #!/usr/bin/perl
 
 use Dancer;
-use File::Spec;
-use File::Slurp;
 use Template;
 use Net::Twitter;
  
