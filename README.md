@@ -8,3 +8,6 @@ Used Perl Dancer (http://perldancer.org/, https://metacpan.org/module/Dancer), t
 * Given a twitter username, display their most recent tweets
 * Hit the twitter API on the backend/perl-side
 * Given two twitter usernames, display the intersection of the people that they follow
+
+Deployed the app on heroku and it can be accessed here: 
+http://mysterious-scrubland-8005.herokuapp.com/get_statistics
