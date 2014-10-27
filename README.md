@@ -11,4 +11,4 @@ Used Perl Dancer (http://perldancer.org/, https://metacpan.org/module/Dancer), t
 
 Deployed the app on heroku and it can be accessed here: 
 
-http://mysterious-scrubland-8005.herokuapp.com/get_statistics
+http://mysterious-scrubland-8005.herokuapp.com/
